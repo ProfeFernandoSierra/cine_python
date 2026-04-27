@@ -56,6 +56,7 @@ try:
         else:
             clasificacion = "Compra alta"
         
+        os.system("cls")
         print(f"Nombre: {nombre}")
         print(f"Edad: {edad} años")
         print(f"Tipo Cliente: {tipo_cliente}")
@@ -63,7 +64,9 @@ try:
         print(f"Clasificacion: {clasificacion}")
         
     else:
+        os.system("cls")
         print("uno de tus datos es incorrecto")
     
 except:
+    os.system("cls")
     print("el valor debe ser numerico")
